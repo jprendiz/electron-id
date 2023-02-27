@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+body {
+	margin: 16px;
+	padding: 0;
+	box-sizing: border-box;
+    background-color: #636363;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: #F0A04B;
+}
+
+.header {
+    text-align: center;
+}
+#container {
+    width: 90%;
+    margin-left: 30px;
+    margin-top: 20px;
+    display: flex;
+}
+
+input {
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+}
+fieldset {
+    width: 355px;
+}
+
+.text-transparent{
+    width: 380px;
+    height: 30px;
+    margin-right: 16px;
+    text-align: center;
+    border: 1px solid #F0A04B;
+    color: #EEEEEE;
+    background: none;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.texto {
+    width: 380px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #F0A04B;
+    background: #F0A04B;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+fieldset {
+    border: solid 1px #F0A04B;
+}
+
+.img-id {
+    border-radius: 10px;
+    border: solid 1px #636363;
+    width: 380px;
+    margin-top: 18px;
+    margin-left: 16px;
+}
+.img-id img {
+    margin-left: 30px;
+    width: 340px;
+    border-radius: 10px;
+}
+
+.texto-no-visible {
+    text-align: center;
+    margin-left: 30px;
+}
+
+.botones {
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    width: 150px;
+    height: 36px;
+    border: 1px solid #F0A04B;
+    color: #EEEEEE;
+    background: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    margin-right: 5px;
+}
+
+.secondary-button {
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    width: 150px;
+    height: 36px;
+    border: 1px solid #F0A04B;
+    color: #3d3d3d;
+    background: #F0A04B;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    margin-right: 5px;
+}
+
+.botones:hover {
+    background-color: #F0A04B;
+    color: #3d3d3d;
+}
+
+.secondary-button:hover {
+    background: none;
+    color: #EEEEEE;
+}
+
+.button-container {
+    text-align: center;
+  }

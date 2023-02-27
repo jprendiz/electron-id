@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lector de cédulas</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>Application name</h1>
+
+    <div class="header">
+        <label for="name">Save path: </label>
+        <input class="text-transparent" type="text" name="name" id="name" required>
+        <button class="secondary-button"> Browse </button>
+    </div>
+
+    <form action="" method="get" class="form-id">
+
+        <section id="container">
+            <section id="section-info"> 
+                <div class="form-id">
+                  <label for="name">Enter your first and second name: </label>
+                  <input class="texto" type="text" name="name" id="name" required>
+                </div>
+        
+                <div class="form-id">
+                  <label for="lastname">Enter your first and second last name: </label>
+                  <input class="texto" type="text" name="lastname" id="lastname" required>
+                </div>
+        
+                <div class="form-id">
+                    <label for="id-number">Enter your id number: </label>
+                    <input class="texto" type="text" name="id-number" id="id-number" required>
+                </div>
+        
+                <div class="form-id">
+                    <label for="age">Enter your age: </label>
+                    <input class="texto" type="number" name="age" id="age" required>
+                </div>
+        
+                <fieldset>
+                    <legend>Select your gender:</legend>
+                
+                    <div>
+                      <input type="radio" id="masculine" name="gender" value="masculine"
+                             checked>
+                      <label for="masculine">Masculine</label>
+                    </div>
+                
+                    <div>
+                      <input type="radio" id="feminine" name="gender" value="feminine">
+                      <label for="feminine">Feminine</label>
+                    </div>
+                
+                </fieldset>
+            </section>
+    
+            <section id="section-images"> 
+                <div class="img-id">
+                    <img src="/assets/imgs/id.jpg" alt="">
+                </div>
+        
+                <div class="texto-no-visible"> 
+                    <p> Aquí va la cadena de texto escaneada, es sólo visible
+                    </p>
+                </div>
+        
+                <div class="button-container">
+                    <button class="secondary-button"> Scan </button>
+                </div>
+            </section>
+
+        </section>
+
+        <div class="button-container">
+          <input class="botones" type="submit" value="Save!">
+        </div>
+      </form>
+
+      <script src="frontend.js"></script>
+</body>
+</html>

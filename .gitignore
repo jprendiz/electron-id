@@ -1,4 +1,11 @@
+.DS_Store
+Thumbs.db
+
+#images
+*.jpg
+
 # Logs
+debug.log
 logs
 *.log
 npm-debug.log*
