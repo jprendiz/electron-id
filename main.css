@@ -4,15 +4,18 @@ body {
 	margin: 16px;
 	padding: 0;
 	box-sizing: border-box;
-    background-color: #636363;
-    color: rgb(255, 255, 255);
     font-family: 'Roboto', sans-serif;
+    background-image: url('/assets/imgs/fondo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 
 h1 {
+    font-style: italic;
     font-size: 50px;
     text-align: center;
-    color: #F0A04B;
+    color: #0081C9;
 }
 
 .header {
@@ -25,39 +28,24 @@ h1 {
     display: flex;
 }
 
-input {
-    -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
-}
 fieldset {
     width: 355px;
-}
-
-.text-transparent{
-    width: 380px;
-    height: 30px;
-    margin-right: 16px;
-    text-align: center;
-    border: 1px solid #F0A04B;
-    color: #EEEEEE;
-    background: none;
-    font-size: 16px;
-    margin-bottom: 16px;
 }
 
 .texto {
     width: 380px;
     height: 30px;
+    margin-right: 16px;
     text-align: center;
-    border: 1px solid #F0A04B;
-    background: #F0A04B;
+    border: none;
+    border-bottom: 1px solid #5BC0F8;
+    background: none;
     font-size: 16px;
     margin-bottom: 16px;
 }
 
 fieldset {
-    border: solid 1px #F0A04B;
+    border: solid 1px #5BC0F8;
 }
 
 .img-id {
@@ -84,8 +72,7 @@ fieldset {
     font-size: 16px;
     width: 150px;
     height: 36px;
-    border: 1px solid #F0A04B;
-    color: #EEEEEE;
+    border: 1px solid #0081C9;
     background: none;
     justify-content: center;
     align-items: center;
@@ -99,9 +86,9 @@ fieldset {
     font-size: 16px;
     width: 150px;
     height: 36px;
-    border: 1px solid #F0A04B;
-    color: #3d3d3d;
-    background: #F0A04B;
+    border: none;
+    color: #EEEEEE;
+    background: #0081C9;
     justify-content: center;
     align-items: center;
     margin-top: 16px;
@@ -109,13 +96,13 @@ fieldset {
 }
 
 .botones:hover {
-    background-color: #F0A04B;
-    color: #3d3d3d;
+    background-color: #0081C9;
+    color: #EEEEEE;
 }
 
 .secondary-button:hover {
-    background: none;
-    color: #EEEEEE;
+    background: #5BC0F8;
+    color: #3d3d3d;
 }
 
 .button-container {
